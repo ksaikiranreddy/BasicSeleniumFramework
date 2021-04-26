@@ -14,6 +14,7 @@ public class SmokeSuite extends BrowserSetup {
         homePageMethods = new HomePageMethods(getDriver());
         homePageMethods.performLogin(userName, password);
         homePageMethods.verifyLogin();
+        //this is test
     }
 
 }
