@@ -1,0 +1,7 @@
+[INFO ] 2021-04-26 15:35:44.392 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-26 15:35:50.159 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-26 15:35:54.795 [main] SeleniumActions - Navigated to :https://demoqa.com/login
+[INFO ] 2021-04-26 15:35:54.889 [main] SeleniumActions - Entered test in By.xpath: //input[@id='userName']
+[INFO ] 2021-04-26 15:35:54.974 [main] SeleniumActions - Entered Test@123 in By.xpath: //input[@id='password']
+[INFO ] 2021-04-26 15:35:55.029 [main] SeleniumActions - Clicking on element By.xpath: //button[@id='login']
+[INFO ] 2021-04-26 15:35:57.286 [main] BrowserSetup - **********************Browser Closed*********************************

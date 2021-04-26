@@ -15,5 +15,5 @@ public interface HomePageLocators {
     Assertions
     */
 
-    String LOGIN_VERIFICATION_TEXT = "test";
+    String LOGIN_VERIFICATION_TEXT = "Test";
 }
