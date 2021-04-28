@@ -1,0 +1,8 @@
+[INFO ] 2021-04-28 11:03:34.278 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-28 11:03:36.537 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-28 11:03:38.805 [main] SeleniumActions - Navigated to :https://www.amazon.in/
+[INFO ] 2021-04-28 11:03:39.098 [main] SeleniumActions - Entered slippers in By.xpath: //*[@id='twotabsearchtextbox']
+[INFO ] 2021-04-28 11:03:42.387 [main] SeleniumActions - Clicking on element By.xpath: //*[@id='nav-search-submit-button']
+[INFO ] 2021-04-28 11:03:47.911 [main] SeleniumActions - Clicking on element By.xpath: //span[@cel_widget_id='MAIN-SEARCH_RESULTS-3']//a[@class='a-link-normal a-text-normal']
+[INFO ] 2021-04-28 11:03:59.013 [main] SeleniumActions - Clicking on element By.xpath: //*[@id='add-to-cart-button']
+[INFO ] 2021-04-28 11:04:06.060 [main] BrowserSetup - **********************Browser Closed*********************************

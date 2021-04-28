@@ -25,7 +25,7 @@ public class Waits {
 
     public void explicitWaitForSecs(int time, By locator) {
         WebDriverWait wait = new WebDriverWait(driver, time);
-        wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
 }

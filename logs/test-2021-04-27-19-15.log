@@ -1,0 +1,6 @@
+[INFO ] 2021-04-27 19:15:52.110 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-27 19:15:54.398 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-27 19:15:57.996 [main] SeleniumActions - Navigated to :https://www.amazon.in/
+[INFO ] 2021-04-27 19:15:58.158 [main] SeleniumActions - Entered Shoes in By.xpath: //*[@id='twotabsearchtextbox']
+[INFO ] 2021-04-27 19:16:01.141 [main] SeleniumActions - Clicking on element By.xpath: //*[@id='nav-search-submit-button']
+[INFO ] 2021-04-27 19:16:23.127 [main] BrowserSetup - **********************Browser Closed*********************************

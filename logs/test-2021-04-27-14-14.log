@@ -1,0 +1,4 @@
+[INFO ] 2021-04-27 14:14:52.937 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-27 14:14:55.336 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-27 14:14:57.461 [main] SeleniumActions - Navigated to :https://www.amazon.in/
+[INFO ] 2021-04-27 14:14:58.717 [main] BrowserSetup - **********************Browser Closed*********************************
