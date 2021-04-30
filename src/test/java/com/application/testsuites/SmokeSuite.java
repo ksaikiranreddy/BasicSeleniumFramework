@@ -2,19 +2,27 @@ package com.application.testsuites;
 
 import com.application.basesetup.BrowserSetup;
 import com.application.dataproviders.SmokeSuiteData;
-import com.application.pages.methods.HomePageMethods;
+import com.application.pages.methods.CreateAccountPageMethods;
+import com.application.pages.methods.PaymentPageMethods;
 import org.testng.annotations.Test;
 
 public class SmokeSuite extends BrowserSetup {
 
-    HomePageMethods homePageMethods;
+    CreateAccountPageMethods createAccountPageMethods;
+    PaymentPageMethods paymentPageMethods;
 
-    @Test(dataProvider = "loginData", dataProviderClass = SmokeSuiteData.class)
-    public void login(String userName, String password) {
-        homePageMethods = new HomePageMethods(getDriver());
-        homePageMethods.performLogin(userName, password);
-        homePageMethods.verifyLogin();
-        //this is test
+    @Test
+    public void registrationGoldClub() throws InterruptedException {
+        createAccountPageMethods = new CreateAccountPageMethods(getDriver());
+        createAccountPageMethods.navigateToCreateAccount();
+        createAccountPageMethods.enterDetails();
     }
 
+    @Test
+    public void paymentDetails()
+    {
+        paymentPageMethods=new PaymentPageMethods(getDriver());
+        paymentPageMethods.click_GiftCard();
+
+    }
 }

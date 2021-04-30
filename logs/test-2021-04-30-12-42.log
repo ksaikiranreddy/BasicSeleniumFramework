@@ -1,0 +1,15 @@
+[INFO ] 2021-04-30 12:42:23.303 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-30 12:42:25.564 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-30 12:42:40.819 [main] SeleniumActions - Navigated to :https://www.theaterclub.com/Online/createAccount.asp
+[INFO ] 2021-04-30 12:42:40.957 [main] SeleniumActions - Entered MR. in By.xpath: //input[@id='ca-title::0']
+[INFO ] 2021-04-30 12:42:41.081 [main] SeleniumActions - Entered James in By.xpath: //input[@id='ca-first-name::0']
+[INFO ] 2021-04-30 12:42:41.178 [main] SeleniumActions - Entered cameroon in By.xpath: //input[@id='ca-last-name::0']
+[INFO ] 2021-04-30 12:42:41.245 [main] SeleniumActions - Entered 35th mount in By.xpath: //*[contains(@name,'::street')]
+[INFO ] 2021-04-30 12:42:41.321 [main] SeleniumActions - Entered hamington in By.xpath: //*[@id='ca-city::0']
+[INFO ] 2021-04-30 12:42:41.740 [main] SeleniumActions - Entered 500001 in By.xpath: //*[@id='zip::0']
+[INFO ] 2021-04-30 12:42:41.822 [main] SeleniumActions - Entered james@gmail.com in By.xpath: //*[@id='user_email::0']
+[INFO ] 2021-04-30 12:42:41.937 [main] SeleniumActions - Entered Second@123 in By.xpath: //*[@id='password::0']
+[INFO ] 2021-04-30 12:42:42.062 [main] SeleniumActions - Entered Second@123 in By.xpath: //*[@id='comp_password::0']
+[INFO ] 2021-04-30 12:42:42.477 [main] SeleniumActions - Clicking on element By.xpath: //button[@onclick='tsSetAllCheckboxes("BOset::WScustomer::Customer::keywords")']
+[INFO ] 2021-04-30 12:42:46.333 [main] SeleniumActions - Clicking on element By.xpath: //*[@value='Continue']
+[INFO ] 2021-04-30 12:42:47.518 [main] BrowserSetup - **********************Browser Closed*********************************

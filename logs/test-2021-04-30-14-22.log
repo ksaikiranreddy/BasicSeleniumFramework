@@ -1,0 +1,4 @@
+[INFO ] 2021-04-30 14:22:23.885 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-30 14:22:26.389 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-30 14:22:31.069 [main] SeleniumActions - Navigated to :https://www.theaterclub.com/Online/createAccount.asp
+[INFO ] 2021-04-30 14:22:32.320 [main] BrowserSetup - **********************Browser Closed*********************************

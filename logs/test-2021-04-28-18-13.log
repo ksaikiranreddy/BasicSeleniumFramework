@@ -1,0 +1,9 @@
+[INFO ] 2021-04-28 18:13:36.351 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-04-28 18:13:38.762 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-04-28 18:13:59.204 [main] SeleniumActions - Navigated to :https://www.theaterclub.com/Online/createAccount.asp
+[INFO ] 2021-04-28 18:13:59.368 [main] SeleniumActions - Entered MR. in By.xpath: //input[@id='ca-title::0']
+[INFO ] 2021-04-28 18:13:59.424 [main] SeleniumActions - Entered James in By.xpath: //input[@id='ca-first-name::0']
+[INFO ] 2021-04-28 18:13:59.488 [main] SeleniumActions - Entered cameroon in By.xpath: //input[@id='ca-last-name::0']
+[INFO ] 2021-04-28 18:14:17.857 [main] SeleniumActions - Entered hamington in By.xpath: //*[@id='ca-city::0']
+[INFO ] 2021-04-28 18:14:42.909 [main] SeleniumActions - Entered 500001 in By.xpath: //*[@id='zip::0']
+[INFO ] 2021-04-28 18:14:51.259 [main] SeleniumActions - Entered james@gmail.com in By.xpath: //*[@id='user_email::0']
