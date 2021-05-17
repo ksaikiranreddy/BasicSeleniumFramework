@@ -5,7 +5,7 @@
     </listeners>
     <test name = "Homepage Tests">
         <classes>
-            <class name="com.application.testsuites.SmokeSuite"/>
+            <class name="com.application.testsuites.HomePageTests"/>
         </classes>
     </test>
 </suite>

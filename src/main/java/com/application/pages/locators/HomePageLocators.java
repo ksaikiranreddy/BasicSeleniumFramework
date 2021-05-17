@@ -4,16 +4,13 @@ import org.openqa.selenium.By;
 
 public interface HomePageLocators {
 
-    By USERNAME_FIELD = By.xpath("//input[@id='userName']");
-    By PASSWORD_FIELD = By.xpath("//input[@id='password']");
-    By LOGIN_BUTTON = By.xpath("//button[@id='login']");
-    By USER_VERIFICATION = By.xpath("//label[@id='userName-value']");
+By ONEWAY=By.xpath("//input[@value='OneWay' and @id='ctl00_mainContent_rbtnl_Trip_0']");
+By DEPARTURE_CITY=By.xpath("//select[@id='ctl00_mainContent_ddl_originStation1']");
+By ARRIVAL_CITY=By.xpath("//select[@id='ctl00_mainContent_ddl_destinationStation1']");
+By DEPART_DATE=By.xpath("//input[@id='ctl00_mainContent_view_date1']");
+By PASSENGERS_COUNT=By.xpath("//div[contains(text(),'1 Adult')]");
+By SEARCH=By.xpath("//input[@id='ctl00_mainContent_btn_FindFlights']");
 
-
-
-    /*
-    Assertions
-    */
 
     String LOGIN_VERIFICATION_TEXT = "Test";
 }

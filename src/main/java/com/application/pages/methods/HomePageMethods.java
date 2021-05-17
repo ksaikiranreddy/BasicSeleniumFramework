@@ -17,17 +17,15 @@ public class HomePageMethods extends SeleniumActions implements HomePageLocators
         this.driver = driver;
     }
 
-    public void performLogin(String userName, String password) {
-        properties = new ReadProperties(configFilePath);
+    public void navigateSpiceJet()
+    {
+        properties=new ReadProperties(configFilePath);
         navigateToURL(properties.getProperty("url"));
-        enterText(USERNAME_FIELD, userName);
-        enterText(PASSWORD_FIELD, password);
-        click(LOGIN_BUTTON);
     }
 
-    public void verifyLogin() {
-        explicitWaitForSecs(5, USER_VERIFICATION);
-        String userName = getText(USER_VERIFICATION);
-        Assert.assertEquals(userName, LOGIN_VERIFICATION_TEXT, "User is not logged in");
+    public void searchFlights()
+    {
+
     }
+
 }
