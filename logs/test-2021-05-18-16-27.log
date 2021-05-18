@@ -1,0 +1,5 @@
+[INFO ] 2021-05-18 16:27:48.353 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-18 16:27:50.846 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-18 16:27:59.959 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-18 16:28:00.205 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_originStation1_CTXT']
+[INFO ] 2021-05-18 16:28:01.481 [main] BrowserSetup - **********************Browser Closed*********************************

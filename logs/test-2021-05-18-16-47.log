@@ -1,0 +1,3 @@
+[INFO ] 2021-05-18 16:47:52.967 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-18 16:47:55.430 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-18 16:48:01.970 [main] SeleniumActions - Navigated to :https://www.spicejet.com/

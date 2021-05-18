@@ -1,0 +1,9 @@
+[INFO ] 2021-05-18 16:49:05.702 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-18 16:49:08.274 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-18 16:49:13.872 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-18 16:49:18.283 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-05-18 16:49:51.914 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-18 16:49:54.331 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-18 16:50:01.098 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-18 16:50:12.286 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_originStation1_CTXT']
+[INFO ] 2021-05-18 16:50:32.235 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_originStation1_CTNR']//a[@value='BLR']

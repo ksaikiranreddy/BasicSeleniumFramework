@@ -9,10 +9,10 @@ public class HomePageTests extends BrowserSetup {
     HomePageMethods homePageMethods;
 
     @Test
-    public void searchFlights()
-    {
+    public void searchFlights() throws InterruptedException {
         homePageMethods=new HomePageMethods(getDriver());
         homePageMethods.navigateSpiceJet();
-        //homePageMethods.searchFlights();
+        homePageMethods.oneWaySelect();
+        homePageMethods.departAndArrival();
     }
 }

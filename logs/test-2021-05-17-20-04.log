@@ -1,0 +1,8 @@
+[INFO ] 2021-05-17 20:04:03.704 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-17 20:04:05.926 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-17 20:04:15.203 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-17 20:04:16.653 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-05-17 20:04:48.500 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-17 20:04:50.884 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-17 20:05:04.356 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-17 20:05:05.607 [main] BrowserSetup - **********************Browser Closed*********************************
