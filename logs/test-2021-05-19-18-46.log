@@ -1,0 +1,12 @@
+[INFO ] 2021-05-19 18:46:13.693 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-19 18:46:15.943 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-19 18:46:25.088 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-19 18:46:25.270 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_originStation1_CTXT']
+[INFO ] 2021-05-19 18:46:25.557 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_originStation1_CTNR']//a[@value='BLR']
+[INFO ] 2021-05-19 18:46:25.720 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']
+[INFO ] 2021-05-19 18:46:25.964 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='DEL']
+[INFO ] 2021-05-19 18:46:26.096 [main] SeleniumActions - Clicking on element By.xpath: //td[@data-month='4']//a[contains(text(),'28')]
+[INFO ] 2021-05-19 18:46:26.409 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='divpaxinfo']
+[INFO ] 2021-05-19 18:46:39.963 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_btn_FindFlights']
+[INFO ] 2021-05-19 18:46:40.046 [main] SeleniumActions - Clicking on element By.xpath: //th[@class='datecolcss11 depart-col is-date ']
+[INFO ] 2021-05-19 18:46:41.253 [main] BrowserSetup - **********************Browser Closed*********************************

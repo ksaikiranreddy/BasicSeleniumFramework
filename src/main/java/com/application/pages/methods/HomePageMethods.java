@@ -3,19 +3,12 @@ package com.application.pages.methods;
 import com.application.pages.locators.HomePageLocators;
 import com.application.utilities.filehandlingutils.ReadProperties;
 import com.application.utilities.seleniumutils.SeleniumActions;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import javax.jws.Oneway;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 import static com.application.utilities.commons.CommonVariables.configFilePath;
 
@@ -42,7 +35,7 @@ public class HomePageMethods extends SeleniumActions implements HomePageLocators
         System.out.println("one way");
     }
 
-    public void departAndArrival() throws InterruptedException {
+    public void departAndArrival()  {
 
         //select departure city
         explicitWaitForSecs(4,DEPARTURECLICK);
@@ -86,10 +79,7 @@ public class HomePageMethods extends SeleniumActions implements HomePageLocators
         child.selectByIndex(2);
     }
 
-    public void searchFlights() throws InterruptedException {
-        Thread.sleep(5000);
+    public void searchFlights()  {
         click(SEARCH);
     }
-
-
 }
