@@ -14,5 +14,8 @@ public class HomePageTests extends BrowserSetup {
         homePageMethods.navigateSpiceJet();
         homePageMethods.oneWaySelect();
         homePageMethods.departAndArrival();
+        homePageMethods.departDateSet();
+        homePageMethods.addPassengers();
+        homePageMethods.searchFlights();
     }
 }
