@@ -1,0 +1,17 @@
+[INFO ] 2021-05-24 17:43:14.380 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-24 17:43:18.915 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-24 17:43:18.939 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-24 17:43:20.360 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-24 17:43:27.895 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-24 17:43:28.252 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_originStation1_CTXT']
+[INFO ] 2021-05-24 17:43:28.391 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_originStation1_CTNR']//a[@value='BLR']
+[INFO ] 2021-05-24 17:43:28.603 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']
+[INFO ] 2021-05-24 17:43:28.785 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='DEL']
+[INFO ] 2021-05-24 17:43:28.965 [main] SeleniumActions - Clicking on element By.xpath: //td[@data-month='4']//a[contains(text(),'28')]
+[INFO ] 2021-05-24 17:43:29.232 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='divpaxinfo']
+[INFO ] 2021-05-24 17:43:36.552 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_btn_FindFlights']
+[INFO ] 2021-05-24 17:43:36.558 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-24 17:43:38.116 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-24 17:43:38.167 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-24 17:43:39.688 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-24 17:43:40.830 [main] BrowserSetup - **********************Browser Closed*********************************

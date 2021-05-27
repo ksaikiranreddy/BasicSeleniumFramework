@@ -1,0 +1,19 @@
+[INFO ] 2021-05-24 17:58:07.302 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-05-24 17:58:09.642 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-05-24 17:58:16.387 [main] SeleniumActions - Navigated to :https://www.spicejet.com/
+[INFO ] 2021-05-24 17:58:16.557 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_originStation1_CTXT']
+[INFO ] 2021-05-24 17:58:16.687 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_originStation1_CTNR']//a[@value='BLR']
+[INFO ] 2021-05-24 17:58:16.837 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']
+[INFO ] 2021-05-24 17:58:17.002 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='DEL']
+[INFO ] 2021-05-24 17:58:17.187 [main] SeleniumActions - Clicking on element By.xpath: //td[@data-month='4']//a[contains(text(),'28')]
+[INFO ] 2021-05-24 17:58:17.457 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='divpaxinfo']
+[INFO ] 2021-05-24 17:58:24.468 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='ctl00_mainContent_btn_FindFlights']
+[INFO ] 2021-05-24 17:58:24.587 [main] SeleniumActions - Clicking on element By.xpath: //th[text()='Depart']
+[INFO ] 2021-05-24 17:58:24.889 [main] SeleniumActions - Clicking on element By.xpath: //th[text()='Depart']
+[INFO ] 2021-05-24 17:58:34.772 [main] SeleniumActions - Clicking on element By.xpath: //span[@class='button-continue-text']
+[INFO ] 2021-05-24 17:58:38.983 [main] SeleniumActions - Entered james in By.xpath: //input[@id='CONTROLGROUPPASSENGER_ContactInputPassengerView_TextBoxFirstName']
+[INFO ] 2021-05-24 17:58:39.080 [main] SeleniumActions - Entered henry in By.xpath: //input[@id='CONTROLGROUPPASSENGER_ContactInputPassengerView_TextBoxLastName']
+[INFO ] 2021-05-24 17:58:39.187 [main] SeleniumActions - Entered 1234567890 in By.xpath: //input[@id='CONTROLGROUPPASSENGER_ContactInputPassengerView_TextBoxHomePhone']
+[INFO ] 2021-05-24 17:58:39.292 [main] SeleniumActions - Entered james@gmail.com in By.xpath: //input[@id='CONTROLGROUPPASSENGER_ContactInputPassengerView_TextBoxEmailAddress']
+[INFO ] 2021-05-24 17:58:39.666 [main] SeleniumActions - Clicking on element By.xpath: //input[@id='CONTROLGROUPPASSENGER_PassengerInputViewPassengerView_SJFlyingView_IamFlying']
+[INFO ] 2021-05-24 17:58:43.876 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -1,39 +1,33 @@
 package com.application.testsuites;
 
 import com.application.basesetup.BrowserSetup;
-import com.application.pages.methods.HomePageMethods;
-import com.application.pages.methods.SelectFlightPageMethods;
-import com.application.pages.methods.TravellerDetailsPageMethods;
+import com.application.utilities.seleniumutils.SingletonClass;
 import org.testng.annotations.Test;
 
 public class HomePageTests extends BrowserSetup {
 
-    HomePageMethods homePageMethods;
-    SelectFlightPageMethods selectFlightPageMethods;
-    TravellerDetailsPageMethods travellerDetailsPageMethods;
+    SingletonClass instance;
 
     @Test(priority = 0)
     public void searchFlights() throws InterruptedException {
-        homePageMethods=new HomePageMethods(getDriver());
-        homePageMethods.navigateSpiceJet();
-        homePageMethods.oneWaySelect();
-        homePageMethods.departAndArrival();
-        homePageMethods.departDateSet();
-        homePageMethods.addPassengers();
-        homePageMethods.searchFlights();
+
+        instance.getInstanceHomePage().navigateSpiceJet();
+        instance.getInstanceHomePage().oneWaySelect();
+        instance.getInstanceHomePage().departAndArrival();
+        instance.getInstanceHomePage().departDateSet();
+        instance.getInstanceHomePage().addPassengers();
+        instance.getInstanceHomePage().searchFlights();
     }
 
-    @Test(priority = 1)
+    @Test(dependsOnMethods = "searchFlights")
     public void selectFlight() throws InterruptedException {
-        selectFlightPageMethods=new SelectFlightPageMethods(getDriver());
-        selectFlightPageMethods.sortFlightByDepartureTime();
-        selectFlightPageMethods.continueBtn();
+        instance.getInstanceSelectFlightPage().sortFlightByDepartureTime();
+        instance.getInstanceSelectFlightPage().continueBtn();
         Thread.sleep(4000);
     }
 
-    @Test(priority = 2)
+    @Test(dependsOnMethods = "selectFlight")
     public void fillTravellerDetails() throws InterruptedException {
-        travellerDetailsPageMethods=new TravellerDetailsPageMethods(getDriver());
-        travellerDetailsPageMethods.fillPassengerDetails();
+        instance.getInstanceTravellerDetailsPage().fillPassengerDetails();
     }
 }
